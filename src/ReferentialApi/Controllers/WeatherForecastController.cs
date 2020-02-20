@@ -15,7 +15,7 @@ namespace ReferentialApi.Controllers
 
         [HttpGet("{id}")]
         public ActionResult<string> Get(int id) {
-            return "Christopher Jones";
+            return "Warm and Sunny";
         }
 
     }
