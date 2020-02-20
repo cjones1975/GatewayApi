@@ -11,7 +11,7 @@ namespace ReferentialApi.Test
         [Fact]
         public void GetReturnName() {
             var returnValue = controller.Get(1);
-            Assert.Equal("Warm and sunny", returnValue.Value);
+            Assert.Equal("Warm and Sunny", returnValue.Value);
         }
 
         [Fact]
